@@ -1,11 +1,51 @@
 <html>
     <head>
+        <style>
+            #one{
+                color: blue;
+                font-size: 30;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: oblique;
+                margin-left: 50px;
+            }
+            #Head{
+                color:blueviolet;
+                align-items : center;
+                padding: 10px;
+                text-align: center;
+            }
+            table{
+                border: solid brown;
+                border-radius: 50cm;
+            }
+        </style>
         <title>
             Welcome to my site!!
         </title>
     </head>
-<body>
-    <h1>Has it been a great day for you!</h1>
-    My name is Srujan B. studying in grade 11
+<body bgcolor="orange">
+    <h1 id="Head">My Portfolio</h1></center>
+    Hey there! Hope it has been a great day for you!
+    <table>
+        <tr>
+            <td><div id="one">Name</div></td>
+            <td>Srujan Bhirud</td>
+        </tr>
+        <tr>
+            <td><div id="one">Grade</div></td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td><div id="one">Particular hobbies</div></td>
+            <td>
+                <ul>
+                    <li>Reading Novels</li>
+                    <li>Cycling</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
