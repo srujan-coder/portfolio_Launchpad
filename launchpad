@@ -1,10 +1,21 @@
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
         <style>
+            body{
+                font-family: 'M PLUS 1 Code', sans-serif;
+            }
+            #MazeRunner{
+                font-size: 20px;
+                padding: 10px;
+                margin-left: 10px;
+            }
             #one{
                 color: blue;
                 font-size: 30;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: 'Franklin Gothic Medium';
                 font-style: oblique;
                 margin-left: 50px;
             }
@@ -16,7 +27,21 @@
             }
             table{
                 border: solid brown;
-                border-radius: 50cm;
+                border-radius: 50px;
+                width: 80%;
+                border-width: 5px;
+                margin-top: 20px;
+                padding: 10px;
+            }
+            tr:hover{
+                background-color: cyan;
+            }
+            img{
+                margin-right:20px;
+                width: 10cm;
+                height: inherit;
+                margin-left: 10px;
+                float:left;
             }
         </style>
         <title>
@@ -24,28 +49,36 @@
         </title>
     </head>
 <body bgcolor="orange">
-    <h1 id="Head">My Portfolio</h1></center>
-    Hey there! Hope it has been a great day for you!
-    <table>
-        <tr>
-            <td><div id="one">Name</div></td>
-            <td>Srujan Bhirud</td>
-        </tr>
-        <tr>
-            <td><div id="one">Grade</div></td>
-            <td>11</td>
-        </tr>
-        <tr>
-            <td><div id="one">Particular hobbies</div></td>
-            <td>
-                <ul>
-                    <li>Reading Novels</li>
-                    <li>Cycling</li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+<h1 id="Head">My Portfolio</h1></center>
+<font color="green"><h2>Hey there. Hope it has been a great day for you!</h2></font>
+<table>
+    <tr>
+        <td><div id="one">Name</div></td>
+        <td>Srujan Bhirud</td>
+    </tr>
+    <tr>
+        <td><div id="one">Grade and Division</div></td>
+        <td>11 Sci H</td>
+    </tr>
+    <tr>
+        <td><div id="one">Particular hobbies</div></td>
+        <td>
+            <ul>
+                <li>Reading Novels</li>
+                <li>Cycling</li>
+                <li>Camping Outside</li>
+                <li>Hiking</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<h1>Some of my Favorite Book Series are:</h1>
+<img src="Maze Runner.jpg">
+
+<div id= "MazeRunner">
+    The Maze Runner is my favorite series that I can enjoy reading at any time and still have a great time. It is written by James Dashner, an American author known for many of his young-adult works. <br>
+    The story revolves around the main character Thomas as he finds himself trapped in a moving maze with deadly monsters within its walls with no memory of who he is or why he was in this horrifying place.<br><br>
+    The literally writing is a great masterpiece as it raises many questions in the mind of the reader, captivativing their attention from the very first paragraph. Since the plot involves Thomas' memory being wiped, it raises many questions and with every question answered, 3 more pop up into the head of the reader maintaining the suspenseful tone throughout the book. Their are great plot twists with the base idea being completely unique making the experience more fun and engaging. His way with words in developing the characters of the book is great and soon enough you'll see most of them as your own friends! Their dialogue also includes a great deal of humor and sarcasm giving brief breaks from the tense environment and probably getting a good laugh or even a smile from the viewer.<br>
+</div>
 </body>
 </html>
